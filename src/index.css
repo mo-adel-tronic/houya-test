@@ -1,0 +1,50 @@
+/*************** Reset ***************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: var(--main-color);
+  font-size: 0.8rem;
+}
+a:hover {
+  color: var(--alt-color);
+}
+img {
+  max-width: 100%;
+}
+h1 {
+  font-size: 1.5em;
+  color: var(--main-text);
+}
+
+/*************** Global ***************/
+:root {
+  --main-bg: #ecf0f3;
+  --main-text: #555;
+  --main-color: #03A9F4;
+  --alt-color: #039BE5;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+#root {
+  background: var(--main-bg);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer {
+  font-size: 0.8rem;
+}
